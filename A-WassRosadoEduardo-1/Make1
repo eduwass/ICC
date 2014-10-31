@@ -1,0 +1,9 @@
+echo "Compile...."
+gcc -c -g prac1a.c -ansi -pedantic -O -Wall -Wno-unused-result
+
+echo "Build...."
+gcc prac1a.o -o prac1a.exe -lm
+
+echo "Run...."
+echo ">"
+./prac1a.exe 
